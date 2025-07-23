@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SuitMedia Ideas</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header id="main-header">
+      <nav>
+        <div class="logo">Suit.media</div>
+        <ul>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#" class="active">Ideas</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        id="banner"
+        style="
+          background-image: url('https://via.placeholder.com/1500x500/FF5733/FFFFFF?text=SuitMedia+Banner');
+        "
+      >
+        <div class="banner-content">
+          <h1>Ideas</h1>
+          <p>Where all our great things begin</p>
+        </div>
+      </section>
+
+      <section id="posts-list">
+        <div class="controls">
+          <div class="showing-info">
+            Showing <span id="showing-start">1</span> -
+            <span id="showing-end">10</span> of
+            <span id="total-items">100</span>
+          </div>
+          <div class="filters">
+            <label for="show-per-page">Show per page:</label>
+            <select id="show-per-page">
+              <option value="10">10</option>
+              <option value="20">20</option>
+              <option value="50">50</option>
+            </select>
+
+            <label for="sort-by">Sort by:</label>
+            <select id="sort-by">
+              <option value="-published_at">Newest</option>
+              <option value="published_at">Oldest</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="posts-grid" class="grid">
+          <div class="card skeleton"></div>
+          <div class="card skeleton"></div>
+          <div class="card skeleton"></div>
+          <div class="card skeleton"></div>
+          <div class="card skeleton"></div>
+          <div class="card skeleton"></div>
+          <div class="card skeleton"></div>
+          <div class="card skeleton"></div>
+        </div>
+
+        <div class="pagination">
+          <button class="page-link" data-page="1">1</button>
+          <button class="page-link" data-page="2">2</button>
+          <button class="page-link" data-page="3">3</button>
+          <span class="ellipsis">...</span>
+          <button class="page-link" data-page="10">10</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

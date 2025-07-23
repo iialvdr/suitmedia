@@ -1,0 +1,24 @@
+{
+  "name": "suitmedia-ideas",
+  "version": "1.0.0",
+  "description": "Suitmedia Ideas List Page Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "suitmedia",
+    "ideas",
+    "list",
+    "web",
+    "frontend",
+    "javascript"
+  ],
+  "author": "Valdi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0"
+  }
+}
